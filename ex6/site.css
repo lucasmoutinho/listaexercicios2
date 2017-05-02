@@ -1,5 +1,5 @@
 html{
-	background-color: gray;
+	background-color: #DCCCFF;
 }
 
 .azulescuro{
@@ -20,12 +20,18 @@ html{
 	background-color: gray;
 }
 
+.noticia{
+	color: black;
+}
+
 div{
+	color: white;
 	margin: 0 auto;
 	border-radius: 8px;
 	padding: 10px; 
 }
 
-div:hover{
-	background-color: green;
+table, td, th{
+	border: 1px solid black;
+	color: black;
 }

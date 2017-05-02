@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Forumulário - PS CJR</title>
+</head>
+<body>
+	<h1>Formulário</h1>
+	<form action="servidorcjr.html" method="GET" id="cjrform">
+		<label>Nome:<input type="text" name="nome" placeholder="Nome"></label><br>
+		<label>Email:<input type="email" name="email" placeholder="email"></label><br>
+		<label>Senha:<input type="password" name="psw" placeholder="Senha"></label><br>
+		<br>
+		<label>Sexo:<br>
+			<input type="radio" name="sexo" value="Masculino">Masculino<br>
+			<input type="radio" name="sexo" value="Feminino">Feminino<br>
+		</label>
+		<br>
+		<label>Tecnologias:<br>
+			<input type="checkbox" name="tecno" value="HTML">HTML<br>
+			<input type="checkbox" name="tecno" value="CSS">CSS<br>
+			<input type="checkbox" name="tecno" value="Java">Java<br>
+			<input type="checkbox" name="tecno" value="PHP">PHP<br>
+		</label>
+		<br>
+		<label>Descrição pessoal:<br>
+			<textarea name="descricao" rows="4" cols="25" placeholder="Digite aqui..."></textarea><br>
+		</label>
+		<br>
+		<label>Opção:  
+			<select>
+				<option value="option1" selected>Opção 1</option>
+				<option value="option2">Opção 2</option>
+			</select>
+		</label>
+		<br><br>
+		<input type="submit" name="submit" value="Enviar"><br>
+		<input type="reset" name="reset" value="Limpar">
+	</form>
+</body>
+</html>
